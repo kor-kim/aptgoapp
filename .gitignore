@@ -5,7 +5,6 @@ build/
 # Android Studio generated files
 *.iml
 .idea/
-.idea/**
 
 # Android build outputs
 app/build/
@@ -20,8 +19,6 @@ app/debug/
 local.properties
 
 # Keystore files
-*.keystore
-*.jks
 debug.keystore
 
 # OS generated files
@@ -37,38 +34,36 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Python files (if any)
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
 
-# Test files and logs
+# Log files
 *.log
-*.json
 
-# Screenshots and images (keeping only essential ones)
+# Large screenshot directories
 screenshots/
-*.png
-!app/src/main/res/mipmap*/*.png
-!app/src/main/res/drawable*/*.png
+current_status.png
+sync_result.png
+login_screen.png
+login_screenshot.png
+main_screen_with_refresh_button.png
+refresh_button_visible.png
+screenshot_after_refresh.png
+test_*.png
+keyboard_*.png
 
-# Test scripts and temporary files
-test_*.py
-*.sh
-*_test.py
-*_debug.py
-api_*.json
+# API response files
+api_response_debug.json
 server_response.json
 cookies.txt
 
-# Documentation files (keeping main ones)
-*.md
-!README.md
-!CLAUDE.md
-
-# Setup guides
-setup_guides/
+# Large documentation files (keep essential ones)
+EMULATOR_TESTING_GUIDE.md
+OPTIMIZATION_SUMMARY.md
+UNIFIED_UI_TEST_GUIDE.md
+ZOOM_FUNCTIONALITY_SUMMARY.md
+manual_deployment_guide.md
+urgent_api_fix_deployment.md
