@@ -1,0 +1,74 @@
+# Gradle files
+.gradle/
+build/
+
+# Android Studio generated files
+*.iml
+.idea/
+.idea/**
+
+# Android build outputs
+app/build/
+app/release/
+app/debug/
+
+# APK files
+*.apk
+*.aab
+
+# Local configuration files
+local.properties
+
+# Keystore files
+*.keystore
+*.jks
+debug.keystore
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python files (if any)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Test files and logs
+*.log
+*.json
+
+# Screenshots and images (keeping only essential ones)
+screenshots/
+*.png
+!app/src/main/res/mipmap*/*.png
+!app/src/main/res/drawable*/*.png
+
+# Test scripts and temporary files
+test_*.py
+*.sh
+*_test.py
+*_debug.py
+api_*.json
+server_response.json
+cookies.txt
+
+# Documentation files (keeping main ones)
+*.md
+!README.md
+!CLAUDE.md
+
+# Setup guides
+setup_guides/

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="4dp"
+    android:paddingVertical="2dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Plate Number (Fixed width) -->
+    <TextView
+        android:id="@+id/textPlateNumber"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="12가3456"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:paddingEnd="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Owner Name (Fixed width) -->
+    <TextView
+        android:id="@+id/textOwnerName"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="홍길동"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:paddingEnd="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Unit Number (Fixed width) -->
+    <TextView
+        android:id="@+id/textUnitNumber"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="101-1001"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:paddingEnd="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Phone Number (Fixed width) -->
+    <TextView
+        android:id="@+id/textPhoneNumber"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="010-1234-5678"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:paddingEnd="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Status/Type (Remaining space) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/textVehicleType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/badge_compact_background"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="1dp"
+            android:text="입주민"
+            android:textColor="@android:color/white"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/status_compact_background"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="1dp"
+            android:text="활성"
+            android:textColor="@color/teal_700"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
